@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Differentiable Programming Notebook'
+copyright = '2022, Xiang CHEN'
+author = 'Xiang CHEN'
 
 release = '0.1'
 version = '0.1.0'
@@ -12,7 +12,7 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'sphinx.ext.duration',
+    # 'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
@@ -26,6 +26,7 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+master_doc = 'index'
 
 # -- Options for HTML output
 
